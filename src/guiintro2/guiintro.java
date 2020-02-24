@@ -1,7 +1,8 @@
+package guiintro2;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 
-public class MySecondWindow {
+public class guiintro {
 
 	protected Shell shell;
 
@@ -11,7 +12,7 @@ public class MySecondWindow {
 	 */
 	public static void main(String[] args) {
 		try {
-			MySecondWindow window = new MySecondWindow();
+			guiintro window = new guiintro();
 			window.open();
 		} catch (Exception e) {
 			e.printStackTrace();
